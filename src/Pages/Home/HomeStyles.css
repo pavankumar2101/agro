@@ -1,0 +1,486 @@
+.hero img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.hero .content {
+  position: absolute;
+  top: 250px;
+  /* left: 50px; */
+  display: flex;
+  justify-content: flex-start;
+  /* align-items: center; */
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  height: 400px;
+  padding: 30px;
+}
+
+.hero .content img {
+  height: 100px;
+  width: 400px;
+}
+
+.content h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.content button {
+  height: 50px;
+  width: 120px;
+  background-color: green;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.section1{
+  padding: 50px;
+  width: 100%;
+}
+
+
+
+.content .section1 {
+  /* position: absolute;
+  top: 350px; */
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.content .section1 img {
+  width: 60%;
+}
+
+/* cards section */
+
+.cards {
+  padding: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cards h3 {
+  color: yellowgreen;
+  font-size: 20px;
+}
+.cards h2 {
+  font-size: 40px;
+}
+
+/* SingleCard */
+
+.card {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.card .content img {
+  height: 300px;
+  width: 300px;
+  border-radius: 30px;
+  /* box-shadow: 3px 3px; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card .content button {
+  height: 30px;
+  width: 80px;
+  border-radius: 10px;
+  background-color: green;
+}
+
+/* card2 */
+
+.section2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 100px;
+}
+
+.section2 .section2-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  top: -250px;
+  /* bottom: 160px; */
+  left: 350px;
+  z-index: 9999;
+}
+
+.section2 .section2-element .element img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.section2 .section2-element .element1 img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.section2 .section2-element .element .element-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  gap: 10px;
+}
+
+.section2 .section2-element span {
+  display: block;
+}
+
+.section2 .section2-element .element .element-content h2 {
+  font-size: 20px;
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.section2 .section2-element .element1 .element-content1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  position: absolute;
+  top: 20px;
+  /* left: 440px; */
+  gap: 10px;
+  /* color: white; */
+}
+
+.section2 .section2-element .element1 .element-content1 h2 {
+  font-size: 20px;
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.section2 .section2-element a {
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+  padding: 8px 8px;
+  border-radius: 8px;
+}
+
+.section2 .section2-img {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section2 .section2-img img {
+  width: 100%;
+  height: 80vh;
+  object-fit: contain;
+  position: absolute;
+  top: 80px;
+  left: -10px;
+}
+
+/* Deals section */
+
+.cards01 {
+  padding: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.cards01 .content1 img {
+  height: 150px;
+  width: 150px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.heading {
+  text-align: center;
+}
+
+.heading h3 {
+  color: yellowgreen;
+  font-size: 20px;
+}
+.heading h2 {
+  font-size: 40px;
+}
+.content1 {
+  text-align: center;
+}
+
+.content1 button {
+  height: 30px;
+  width: 50px;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Organic */
+
+.organic {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+}
+.organic .organic-content {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.organic .organic-content .content2 .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+.organic .organic-img img {
+  width: 460px;
+}
+
+.organic-content button {
+  height: 30px;
+  width: 80px;
+  background-color: green;
+  border-radius: 30px;
+  color: white;
+}
+
+/* products */
+
+.products {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #1f1e17;
+  color: #a5a49a;
+  padding: 40px 20px;
+}
+
+/* Testimonials */
+
+.section6 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.section6 .section6-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 20px 10px;
+  position: relative;
+}
+
+.section6 .section6-img .card .car1 img {
+  width: 400px;
+  position: relative;
+}
+
+.section6 .section6-img .card .car2 img {
+  width: 100px;
+  position: absolute;
+  top: 90px;
+  left: -30px;
+}
+
+.section6 .section6-img .card1 .car3 img {
+  width: 380px;
+  position: relative;
+}
+
+.section6 .section6-img .card1 .car4 img {
+  width: 100px;
+  position: absolute;
+  top: 80px;
+  left: 480px;
+}
+
+.section6 .section6-content h5 {
+  font-size: 20px;
+  color: #eec044;
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* slider */
+
+.services {
+  width: 100%;
+  padding: 40px 50px;
+  background-color: crimson;
+}
+
+.services img {
+  width: 100%;
+  border-radius: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.slick-slide > div {
+  margin: 0 20px;
+}
+
+.slick-list {
+  margin: 0 -10px;
+}
+
+
+
+/* Cart */
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none; 
+}
+
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .shopping-card {
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    padding: 20px 30px;
+  }
+
+  .shopping-card img{
+    height: 50px;
+  }
+  
+  .product-item {
+    padding: 20px;
+  }
+
+  .flex .menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
+
+  .flex .menu2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+
+  .product{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+    padding: 50px 10px;
+  }
+  
+  .product .product-item button{
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    color: black;
+    border: 1px solid cadetblue;
+    border-radius: 10px;
+  }
+  
+  
+  .header{
+    position: absolute;
+    top: 15px;
+    right: 80px;
+    position: fixed;
+    z-index: 999999;
+  }
+  
+  .cart-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 0px;
+  }
+  
+  .product-item img{
+    width: 300px;
+    border-radius: 30px;
+  }
+  
+  .mainheader{
+    position: fixed;
+  }
+  
+  .header-list button{
+    width: 50px;
+    background-color: white;
+    outline: none;
+    border: none;
+  }

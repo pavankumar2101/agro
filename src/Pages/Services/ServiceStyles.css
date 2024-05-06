@@ -1,0 +1,282 @@
+/* .......SERVICE- 1..... */
+
+.service1 img {
+    width: 100%;
+  }
+  
+  /* .......FRESH - 2...... */
+  
+  .fresh2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 20px;
+  }
+  
+  .fresh2 .fresh2-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 20px;
+  }
+  
+  .fresh2 .fresh2-cards .card1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .fresh2 .fresh2-cards .card1 .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 180px;
+    height: 80px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: absolute;
+    top: 210px;
+    border-radius: 10px;
+  }
+  
+  .fresh2 .fresh2-cards .card1 .content img {
+    width: 50px;
+    position: absolute;
+    bottom: 60px;
+  }
+  
+  .fresh2 .fresh2-cards .card1 .content button {
+    border: 1px solid #4baf47;
+    background-color: #4baf47;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    /* position: absolute;
+    left: 100px; */
+  }
+  
+  .fresh2 .fresh2-cards .img img {
+    width: 200px;
+  }
+  /* .................. */
+  .fresh2 .fresh2-cards .card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .fresh2 .fresh2-cards .card2 .content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 180px;
+    height: 80px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: absolute;
+    top: 210px;
+    border-radius: 10px;
+  }
+  
+  .fresh2 .fresh2-cards .card2 .content1 img {
+    width: 50px;
+    position: absolute;
+    bottom: 60px;
+  }
+  
+  .fresh2 .fresh2-cards .card2 .content1 button {
+    border: 1px solid #4baf47;
+    background-color: #4baf47;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    /* position: absolute;
+    left: 100px; */
+  }
+  /* ...........ssssss */
+  .fresh2 .fresh2-cards .card3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .fresh2 .fresh2-cards .card3 .content2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 180px;
+    height: 80px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: absolute;
+    top: 210px;
+    border-radius: 10px;
+  }
+  
+  .fresh2 .fresh2-cards .card3 .content2 img {
+    width: 50px;
+    position: absolute;
+    bottom: 60px;
+  }
+  
+  .fresh2 .fresh2-cards .card3 .content2 button {
+    border: 1px solid #4baf47;
+    background-color: #4baf47;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    /* position: absolute;
+    left: 100px; */
+  }
+  /* ............ */
+  .fresh2 .fresh2-cards .card4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .fresh2 .fresh2-cards .card4 .content3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 180px;
+    height: 80px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: absolute;
+    top: 210px;
+    border-radius: 10px;
+  }
+  
+  .fresh2 .fresh2-cards .card4 .content3 img {
+    width: 50px;
+    position: absolute;
+    bottom: 60px;
+  }
+  
+  .fresh2 .fresh2-cards .card4 .content3 button {
+    border: 1px solid #4baf47;
+    background-color: #4baf47;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    /* position: absolute;
+    left: 100px; */
+  }
+  
+  /* ......FRESH -3 ........ */
+  
+  .fresh3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f8f7f0;
+    padding: 20px 20px;
+  }
+  
+  .fresh3 img {
+    width: 120px;
+  }
+  
+  /* ......FRESH - 4..... */
+  
+  .fresh4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 20px;
+  }
+  
+  .fresh4 .fresh4-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fresh4 .fresh4-img img {
+    width: 300px;
+  }
+  
+  .fresh4 .fresh4-content h5 {
+    font-size: 20px;
+    color: #eec044;
+    font-family: "Covered By Your Grace", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fresh4 .fresh4-content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .fresh4 .fresh4-content p {
+    font-size: 12px;
+  }
+  
+  .fresh4 .fresh4-content .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .fresh4 .fresh4-content .card img {
+    width: 100px;
+  }
+  
+  /* .........FRESH - 5....... */
+  
+  .fresh5 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4baf47;
+    gap: 50px;
+    padding: 40px 0px;
+  }
+  
+  .fresh5 .fresh5-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .fresh5 button {
+    border: 1px solid #EEC044;
+    background-color: #EEC044;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+  }
+  
+  
+  
+  
